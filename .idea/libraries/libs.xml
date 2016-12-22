@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game/libs/weibosdkcore_release.jar!/" />
       <root url="jar://$PROJECT_DIR$/game/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/game/libs/cocos2d-android.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

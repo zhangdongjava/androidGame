@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.sina.weibo.sdk.demo"
+          package="com.zzz.game"
           android:versionCode="8"
           android:versionName="3.1.4">
 
@@ -19,36 +19,11 @@
             android:theme="@style/AppTheme">
 
         <!-- 主 Activity-->
-        <activity android:name=".MainActivityDemo">
+        <activity android:name="com.zzz.game.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".WBDemoMainActivity">
-            <intent-filter>
-                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-
-
-        </activity>
-        <activity
-                android:name="com.tencent.tauth.AuthActivity"
-                android:noHistory="true"
-                android:launchMode="singleTask">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="tencent222222"/>
-            </intent-filter>
-        </activity>
-        <activity
-                android:name="com.tencent.connect.common.AssistActivity"
-                android:screenOrientation="behind"
-                android:theme="@android:style/Theme.Translucent.NoTitleBar"
-                android:configChanges="orientation|keyboardHidden">
         </activity>
     </application>
 
